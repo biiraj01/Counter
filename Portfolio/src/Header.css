@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#1F1F1F;
+    height: 80px;
+}
+.logo a{
+    font-size: 60px;
+    text-decoration: none;
+    padding-left: 15px;
+    color:#E0E0E0;
+}
+.list{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-size: 30px;
+    padding-right: 300px;
+}
+
+.list li a{
+    display: flex;
+    color: #E0E0E0;
+    text-decoration: none;
+    list-style: none;
+}
+
+a:hover::after {
+  width: 100%;
+}
